@@ -7,9 +7,9 @@ import SearchBar from "../SearchBar/SearchBar";
 import MovieGrid from "../MovieGrid/MovieGrid";
 import { fetchMovies, type GetMovieRes } from "../../services/movieService.ts";
 import type { Movie } from "../../types/movie.ts";
-import Loader from "../../../Loader/Loader.tsx";
-import ErrorMessage from "../../../ErrorMessage/ErrorMessage.tsx";
-import MovieModal from "../../../MovieModal/MovieModal.tsx";
+import Loader from "../Loader/Loader.tsx";
+import ErrorMessage from "../ErrorMessage/ErrorMessage.tsx";
+import MovieModal from "../MovieModal/MovieModal.tsx";
 import ReactPaginate from "react-paginate";
 
 export default function App() {
